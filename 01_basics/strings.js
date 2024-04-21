@@ -1,3 +1,4 @@
 const name = "Tanya"
 const reponame = 50
-const.log(name + reponame + "Vaule")
+console.log(name + reponame + "Vaule") // outdated syntax to concat the string 
+
