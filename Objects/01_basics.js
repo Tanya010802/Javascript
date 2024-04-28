@@ -22,3 +22,15 @@ console.log(JsUser["gmail"])// this is the correct and better way to define
 console.log(JsUser[mysym])
 console.log(typeof JsUser[mysym])
 console.log(JsUser)
+
+
+
+JsUser.greeting = function () {
+    console.log("Hello JS user")
+}
+console.log(JsUser.greeting())
+
+JsUser.greeting2 = function () {
+    console.log('Hello JS user',this.name)
+}
+console.log(JsUser.greeting2())
